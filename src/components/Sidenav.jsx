@@ -5,7 +5,7 @@ const Sidenav = () => {
   const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
   if (!isMenuOpen) return null;
   return (
-    <div className="col-span-1 p-4">
+    <div className="col-span-1 p-4 w-50">
       <ul className="*:p-1">
         <li>Home</li>
         <li>Shorts</li>
